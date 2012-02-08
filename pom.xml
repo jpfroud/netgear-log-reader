@@ -6,6 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<modules>
+		<module>netgear_log_reader-model</module>
+	</modules>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -17,7 +21,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<modules>
-		<module>netgear_log_reader-model</module>
-	</modules>
+	
 </project>
