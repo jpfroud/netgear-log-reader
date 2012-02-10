@@ -1,0 +1,28 @@
+Admin login
+Admin login failure
+DHCP IP: (192.168.0.100)
+DHCP IP: (192.168.0.101)
+DHCP IP: (192.168.0.102)
+DHCP IP: (192.168.0.103)
+DHCP IP: (192.168.0.104)
+DHCP IP: (192.168.0.105)
+DHCP IP: (192.168.0.106)
+DHCP IP: (192.168.0.107)
+DHCP IP: (192.168.0.112)
+DHCP IP: (192.168.0.129)
+DoS attack: ACK Scan
+DoS attack: FIN Scan
+DoS attack: STORM
+DoS attack: Smurf
+Initialized, firmware version: V1.0.0.70_1.0.18
+Internet connected
+Internet disconnected
+LAN access from remote
+Remote login
+Remote login failure
+Self2WAN ICMP type b Detected!
+Service blocked: ICMP_echo_req
+Time synchronized with NTP server
+UPnP set event: Public_UPNP_C3
+UPnP set event: Public_UPNP_C5
+email sent to: jpfroud@gmail.com
