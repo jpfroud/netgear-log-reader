@@ -1,18 +1,18 @@
 #summary List of Log events supported.
 #labels Phase-Requirements
 
-* Admin login
-* Admin login failure
-* DHCP IP: (192.168.0.100)
-* DoS attack: ACK Scan (and other types)
-* Initialized, firmware version: V1.0.0.70_1.0.18
-* Internet connected
-* Internet disconnected
-* LAN access from remote
-* Remote login
-* Remote login failure
-* Self2WAN ICMP type b Detected!
-* Service blocked: ICMP_echo_req (and others)
-* Time synchronized with NTP server
-* UPnP set event: Public_UPNP_C3 (and others)
-* email sent to: adress@host.com
+ * Admin login
+ * Admin login failure
+ * DHCP IP: (192.168.0.100)
+ * DoS attack: ACK Scan (and other types)
+ * Initialized, firmware version: V1.0.0.70_1.0.18
+ * Internet connected
+ * Internet disconnected
+ * LAN access from remote
+ * Remote login
+ * Remote login failure
+ * Self2WAN ICMP type b Detected!
+ * Service blocked: ICMP_echo_req (and others)
+ * Time synchronized with NTP server
+ * UPnP set event: Public_UPNP_C3 (and others)
+ * email sent to: adress@host.com
