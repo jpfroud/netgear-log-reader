@@ -4,4 +4,6 @@ public interface EventType {
 	
 	String getName();
 
+	String getDescription();
+	
 }
