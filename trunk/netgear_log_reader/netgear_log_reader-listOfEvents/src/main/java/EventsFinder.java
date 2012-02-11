@@ -44,15 +44,10 @@ public class EventsFinder {
 		
 		File[] logFiles = logFolder.listFiles(new EmlFileFilter());
 		Set<String> eventSet = new HashSet<String>();
-		
-		for (File f : logFiles){
-			parse(f, eventSet);
-		}
-		
 		List<String> listEvents = new ArrayList<String>();
 		
-		for (String s : eventSet){
-			listEvents.add(s);
+		for (File f : logFiles){
+			parse(f, eventSet, listEvents);
 		}
 		
 		Collections.sort(listEvents);
@@ -69,17 +64,20 @@ public class EventsFinder {
 		writer.close();
 	}
 	
-	private static void parse(File f, Set<String>evenSet) throws IOException{
+	private static void parse(File f, Set<String>evenSet, List<String> listEvents) throws IOException{
 		BufferedReader reader = new BufferedReader(new FileReader(f));
 		
 		String line = reader.readLine();
 		
 		while (null != line){
-			Pattern p = Pattern.compile("^\\[.+?\\]");
+			Pattern p = Pattern.compile("^(\\[.+?\\])(.+)");
 			Matcher m = p.matcher(line);
 			if (m.find()){
-				String group = m.group();
-				evenSet.add(group.substring(1,group.length()-1));
+				String event = m.group(1);
+				if (!evenSet.contains(event)){
+					evenSet.add(event);
+					listEvents.add(event+m.group(2));
+				}
 			}
 			line = reader.readLine();
 		}
