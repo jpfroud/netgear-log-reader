@@ -1,7 +1,7 @@
 package event.myimplementation;
 
-import event.implementation.AbstractEventWithSource;
+import event.implementation.AbstractSpecialEventWithSource;
 
-public class ServiceBlockedEvent extends AbstractEventWithSource {
+public class ServiceBlockedEvent extends AbstractSpecialEventWithSource {
 
 }

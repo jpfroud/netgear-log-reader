@@ -1,7 +1,7 @@
 package event.myimplementation;
 
-import event.implementation.AbstractEventType;
+import event.implementation.AbstractSpecialEventWithSource;
 
-public class EmailSentEvent extends AbstractEventType {
+public class EmailSentEvent extends AbstractSpecialEventWithSource {
 
 }
