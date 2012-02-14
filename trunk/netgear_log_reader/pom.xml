@@ -8,7 +8,6 @@
 
 	<modules>
 		<module>netgear_log_reader-model</module>
-		<module>netgear_log_reader-listOfEvents</module>
 	</modules>
 	
 	<build>
