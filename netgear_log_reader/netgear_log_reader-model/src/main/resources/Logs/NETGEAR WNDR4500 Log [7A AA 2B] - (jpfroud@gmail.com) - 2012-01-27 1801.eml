@@ -1,0 +1,103 @@
+Delivered-To: jpfroud@gmail.com
+Received: by 10.229.52.74 with SMTP id h10cs26730qcg;
+        Fri, 27 Jan 2012 10:01:02 -0800 (PST)
+Received: by 10.180.95.105 with SMTP id dj9mr12563534wib.18.1327687261929;
+        Fri, 27 Jan 2012 10:01:01 -0800 (PST)
+Return-Path: <jpfroud@gmail.com>
+Received: from mx1.kwaoo.net (mx1.kwaoo.net. [178.250.209.7])
+        by mx.google.com with ESMTP id v23si6975722weq.71.2012.01.27.10.01.01;
+        Fri, 27 Jan 2012 10:01:01 -0800 (PST)
+Received-SPF: neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) client-ip=178.250.209.7;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) smtp.mail=jpfroud@gmail.com
+Received: from localhost (mx1.kwaoo.net [127.0.0.1])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id 2FE1914A0774
+	for <jpfroud@gmail.com>; Fri, 27 Jan 2012 19:01:01 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mx1.kwaoo.net
+Received: from mx1.kwaoo.net ([127.0.0.1])
+	by localhost (mx1.kwaoo.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id vPN94FHXIRip for <jpfroud@gmail.com>;
+	Fri, 27 Jan 2012 19:01:00 +0100 (CET)
+Received: from smtp2.kwaoo.net (smtp2.kwaoo.net [178.250.208.133])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id BA20C14A043B
+	for <jpfroud@gmail.com>; Fri, 27 Jan 2012 19:01:00 +0100 (CET)
+Received: from smtp25.k-net.fr (unknown [178.250.210.109])
+	by smtp2.kwaoo.net (Postfix) with SMTP id 56CBF103C191
+	for <jpfroud@gmail.com>; Fri, 27 Jan 2012 18:01:00 +0000 (UTC)
+DATE: 27 Jan 12 18:01:00
+FROM: <jpfroud@gmail.com>
+To: <jpfroud@gmail.com>
+Sender: root@WNDR4500
+Subject: NETGEAR WNDR4500 Log [7A:AA:2B]
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Message-Id: <20120127180100.BA20C14A043B@mx1.kwaoo.net>
+
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 18:00:40
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:59:53
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:59:19
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:58:28
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:57:43
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:57:11
+[LAN access from remote] from 178.16.179.18:39462 to 192.168.0.106:23 Friday, Jan 27,2012 17:56:46
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:56:29
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:55:55
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:55:23
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:54:50
+[LAN access from remote] from 178.209.92.39:40689 to 192.168.0.106:23 Friday, Jan 27,2012 17:54:35
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:54:09
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:53:34
+[LAN access from remote] from 178.49.23.178:43192 to 192.168.0.106:23 Friday, Jan 27,2012 17:53:26
+[Time synchronized with NTP server] Friday, Jan 27,2012 17:52:58
+[Internet connected] IP address: 178.250.210.109, Friday, Jan 27,2012 17:52:58
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:52:49
+[LAN access from remote] from 46.100.166.174:9907 to 192.168.0.112:445 Friday, Jan 27,2012 17:52:16
+[LAN access from remote] from 46.100.166.174:9905 to 192.168.0.112:445 Friday, Jan 27,2012 17:52:15
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:52:11
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:51:29
+[LAN access from remote] from 202.99.168.200:6000 to 192.168.0.106:3389 Friday, Jan 27,2012 17:51:11
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:50:48
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:50:14
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:49:38
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:48:55
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.129, Friday, Jan 27,2012 17:48:21
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:48:08
+[LAN access from remote] from 114.80.81.46:6000 to 192.168.0.106:1433 Friday, Jan 27,2012 17:47:53
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:47:24
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:46:46
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:46:13
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:45:41
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:45:08
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:44:37
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:43:56
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:43:22
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:42:49
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:42:03
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:41:24
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:41:09
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:40:25
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:39:50
+[Admin login] from source 192.168.0.106, Friday, Jan 27,2012 17:39:45
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:39:18
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:38:41
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:37:57
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:37:22
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:36:52
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:36:07
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:35:19
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Friday, Jan 27,2012 17:35:08
+[DHCP IP: (192.168.0.106)] to MAC address E0:46:9A:A8:39:46, Friday, Jan 27,2012 17:34:52
+[LAN access from remote] from 178.34.213.36:62323 to 192.168.0.112:445 Friday, Jan 27,2012 17:29:29
+[LAN access from remote] from 178.34.213.36:62321 to 192.168.0.112:445 Friday, Jan 27,2012 17:29:29
+[Time synchronized with NTP server] Friday, Jan 27,2012 17:22:57
+[Internet connected] IP address: 178.250.210.109, Friday, Jan 27,2012 17:22:55
+[LAN access from remote] from 178.90.5.220:25318 to 192.168.0.112:445 Friday, Jan 27,2012 17:22:09
+[LAN access from remote] from 178.90.5.220:25313 to 192.168.0.112:445 Friday, Jan 27,2012 17:22:09
+[DHCP IP: (192.168.0.105)] to MAC address 90:27:E4:16:4C:9C, Friday, Jan 27,2012 17:20:21
+[DHCP IP: (192.168.0.105)] to MAC address 90:27:E4:16:4C:9C, Friday, Jan 27,2012 17:16:40
+[LAN access from remote] from 178.209.95.106:50243 to 192.168.0.106:23 Friday, Jan 27,2012 17:16:04
+[LAN access from remote] from 178.249.114.29:2432 to 192.168.0.106:135 Friday, Jan 27,2012 17:15:12
+[DHCP IP: (192.168.0.101)] to MAC address 04:1E:64:26:23:72, Friday, Jan 27,2012 17:14:35
+[DHCP IP: (192.168.0.101)] to MAC address 04:1E:64:26:23:72, Friday, Jan 27,2012 17:06:58
+[DHCP IP: (192.168.0.101)] to MAC address 04:1E:64:26:23:72, Friday, Jan 27,2012 17:06:12
+[email sent to: jpfroud@gmail.com] Friday, Jan 27,2012 17:01:00
+
