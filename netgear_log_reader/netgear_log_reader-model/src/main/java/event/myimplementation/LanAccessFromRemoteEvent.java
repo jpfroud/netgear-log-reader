@@ -7,6 +7,10 @@ public class LanAccessFromRemoteEvent extends AbstractEventWithDestination {
 	private Integer sourcePort;
 	private Integer destinationPort;
 
+	public LanAccessFromRemoteEvent(String s) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Integer getSourcePort() {
 		return sourcePort;
 	}
@@ -23,4 +27,10 @@ public class LanAccessFromRemoteEvent extends AbstractEventWithDestination {
 		this.destinationPort = destinationPort;
 	}
 
+	public static final String NAME = "LAN access from remote";
+
+	@Override
+	public String getName() {
+		return NAME;
+	}
 }
