@@ -2,10 +2,11 @@ package event.myimplementation;
 
 import event.implementation.AbstractEventType;
 
-public class Self2WANEvent extends AbstractEventType {
-	public static final String NAME = "Self2WAN ICMP type b Detected!";
+public class InternetDisconnectedEvent extends AbstractEventType {
 
-	public Self2WANEvent(String s) {
+	public static final String NAME = "Internet disconnected";
+
+	public InternetDisconnectedEvent(String s) {
 		// TODO Auto-generated constructor stub
 	}
 
