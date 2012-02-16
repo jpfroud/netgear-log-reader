@@ -87,7 +87,8 @@ public class ParserTestCase extends TestCase {
 				((AdminLoginSuccessEvent) event).getSource());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 17, 39, 45);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseAdminLoginFailure() {
@@ -100,7 +101,8 @@ public class ParserTestCase extends TestCase {
 				.getSource().getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 17, 39, 45);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString().toString(), event
+				.getDateOfEvent().toString().toString());
 	}
 
 	public void testParseDHCP() {
@@ -113,7 +115,8 @@ public class ParserTestCase extends TestCase {
 				.getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 25, 00);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 		assertEquals("04:1E:64:26:23:72", ((DHCPEvent) event).getMacAdress()
 				.getStringValue());
 	}
@@ -128,7 +131,8 @@ public class ParserTestCase extends TestCase {
 				.getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 1, 1, 17, 56, 33);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 		assertEquals("ACK Scan", ((DosAttackEvent) event).getParameter()
 				.getName());
 	}
@@ -143,7 +147,8 @@ public class ParserTestCase extends TestCase {
 				.getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 1, 1, 17, 56, 33);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 		assertEquals("FIN Scan", ((DosAttackEvent) event).getParameter()
 				.getName());
 	}
@@ -156,7 +161,8 @@ public class ParserTestCase extends TestCase {
 		assertEquals(InitializedEvent.class, event.getClass());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2003, 0, 1, 0, 0, 0);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 		assertEquals("firmware version: V1.0.0.70_1.0.18",
 				((InitializedEvent) event).getParameter().getName());
 	}
@@ -171,7 +177,8 @@ public class ParserTestCase extends TestCase {
 				.getSource().getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 48, 37);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseInternetDisconnected() {
@@ -182,7 +189,8 @@ public class ParserTestCase extends TestCase {
 		assertEquals(InternetDisconnectedEvent.class, event.getClass());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 1, 0, 0, 3);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseLanRemote() {
@@ -201,7 +209,8 @@ public class ParserTestCase extends TestCase {
 				((LanAccessFromRemoteEvent) event).getDestinationPort());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 57, 46);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseRemoteLogin() {
@@ -214,7 +223,8 @@ public class ParserTestCase extends TestCase {
 				((RemoteLoginSuccessEvent) event).getSource());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 49, 54);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseRemoteLoginFailure() {
@@ -227,7 +237,8 @@ public class ParserTestCase extends TestCase {
 				((RemoteLoginFailureEvent) event).getSource());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 49, 54);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseSelf2Wan() {
@@ -238,7 +249,8 @@ public class ParserTestCase extends TestCase {
 		assertEquals(Self2WANEvent.class, event.getClass());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 22, 5, 11);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseServiceBlocked() {
@@ -251,7 +263,8 @@ public class ParserTestCase extends TestCase {
 				((ServiceBlockedEvent) event).getSource());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 19, 50, 27);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 		assertEquals("ICMP_echo_req", ((ServiceBlockedEvent) event)
 				.getParameter().getName());
 	}
@@ -264,7 +277,8 @@ public class ParserTestCase extends TestCase {
 		assertEquals(TimeSynchroEvent.class, event.getClass());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 48, 37);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 	}
 
 	public void testParseUPnP() {
@@ -276,7 +290,8 @@ public class ParserTestCase extends TestCase {
 		assertEquals("192.168.0.129", ((UPnPEvent) event).getSource());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 48, 21);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 		assertEquals("Public_UPNP_C3", ((UPnPEvent) event).getParameter()
 				.getName());
 	}
@@ -289,7 +304,8 @@ public class ParserTestCase extends TestCase {
 		assertEquals(EmailSentEvent.class, event.getClass());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 13, 1, 1);
-		assertEquals(cal.getTime(), event.getDateOfEvent());
+		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
+				.toString());
 		assertEquals("jpfroud@gmail.com", ((EmailSentEvent) event)
 				.getParameter().getName());
 	}
