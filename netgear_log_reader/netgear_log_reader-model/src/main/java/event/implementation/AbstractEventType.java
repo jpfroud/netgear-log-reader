@@ -53,5 +53,7 @@ public abstract class AbstractEventType implements EventType {
 	public String getName() {
 		return null;
 	}
+	
+	protected abstract  void parse(String s);
 
 }
