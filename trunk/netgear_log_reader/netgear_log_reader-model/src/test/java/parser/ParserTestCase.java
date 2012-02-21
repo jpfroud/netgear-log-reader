@@ -84,7 +84,7 @@ public class ParserTestCase extends TestCase {
 		// checks
 		assertEquals(AdminLoginSuccessEvent.class, event.getClass());
 		assertEquals("192.168.0.106",
-				((AdminLoginSuccessEvent) event).getSource());
+				((AdminLoginSuccessEvent) event).getSource().getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 17, 39, 45);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
