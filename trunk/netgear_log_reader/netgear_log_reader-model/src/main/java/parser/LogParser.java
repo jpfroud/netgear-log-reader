@@ -1,6 +1,7 @@
 package parser;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -11,6 +12,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import utils.EmlFileFilter;
 import utils.IoUtils;
 import event.EventFactory;
 import event.EventType;
@@ -40,7 +42,10 @@ public class LogParser {
 		try {
 			List<String> linesOfLog = IoUtils.convert(toParse);
 			for (String s : linesOfLog) {
-				listEvents.add(EventFactory.textLineToEvent(s));
+				EventType event = EventFactory.textLineToEvent(s);
+				if (null != event) {
+					listEvents.add(event);
+				}
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -51,7 +56,20 @@ public class LogParser {
 	}
 
 	public static List<EventType> parse(File input) throws IOException {
+		if (input.isDirectory()) {
+			return parseDirectory(input);
+		}
 		return parse(IoUtils.fileToString(input));
+	}
+
+	public static List<EventType> parseDirectory(File input)
+			throws FileNotFoundException, IOException {
+		List<EventType> result = new ArrayList<EventType>();
+		File[] logFiles = input.listFiles(new EmlFileFilter());
+		for (File f : logFiles) {
+			result.addAll(parse(IoUtils.fileToString(f)));
+		}
+		return result;
 	}
 
 	/**
@@ -85,5 +103,16 @@ public class LogParser {
 			}
 		}
 		return null;
+	}
+
+	public static List<EventType> filter(List<EventType> listEvents,
+			Class<?> classType) {
+		List<EventType> result = new ArrayList<EventType>();
+		for (EventType e : listEvents) {
+			if (e.getClass().equals(classType)) {
+				result.add(e);
+			}
+		}
+		return result;
 	}
 }

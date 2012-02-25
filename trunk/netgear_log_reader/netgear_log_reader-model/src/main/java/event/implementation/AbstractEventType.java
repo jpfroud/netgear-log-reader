@@ -61,4 +61,9 @@ public abstract class AbstractEventType implements EventType {
 
 	protected abstract void parse(String s);
 
+	@Override
+	public int compareTo(EventType o) {
+		return dateOfEvent.compareTo(o.getDateOfEvent());
+	}
+
 }

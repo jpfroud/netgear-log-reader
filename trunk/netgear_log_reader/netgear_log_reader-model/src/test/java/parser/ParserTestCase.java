@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.List;
 
 import junit.framework.TestCase;
@@ -29,7 +30,7 @@ import event.myimplementation.UPnPEvent;
 
 public class ParserTestCase extends TestCase {
 
-	public void testParse() {
+	public void testParseFile() {
 		File input = new File("src/test/resources/listOfEventsSoFar.txt");
 		int linesInFile = 0;
 		try {
@@ -50,6 +51,20 @@ public class ParserTestCase extends TestCase {
 		assertEquals(linesInFile, listEvents.size());
 	}
 
+	public void testParseFolder() {
+		File input = new File("src/test/resources/folderToScan");
+		List<EventType> listEvents = null;
+		try {
+			listEvents = LogParser.parse(input);
+		} catch (IOException e) {
+			e.printStackTrace();
+			fail();
+		}
+
+		// checks
+		assertEquals(5, listEvents.size());
+	}
+
 	public void testCountLines() {
 		File input = new File("src/test/resources/testCountLines.txt");
 		try {
@@ -58,6 +73,41 @@ public class ParserTestCase extends TestCase {
 			e.printStackTrace();
 			fail();
 		}
+	}
+
+	public void testCompareByDate() {
+		File input = new File("src/test/resources/testDate.txt");
+		List<EventType> listEvents = null;
+		try {
+			listEvents = LogParser.parse(input);
+		} catch (IOException e) {
+			e.printStackTrace();
+			fail();
+		}
+
+		// checks
+		Collections.sort(listEvents);
+		DHCPEvent eventType = (DHCPEvent) listEvents.get(0);
+		assertEquals("192.168.0.100", eventType.getSource().getStringValue());
+	}
+
+	public void testFilterType() {
+		File input = new File("src/test/resources/testCountLines.txt");
+		List<EventType> listEvents = null;
+		try {
+			listEvents = LogParser.parse(input);
+		} catch (IOException e) {
+			e.printStackTrace();
+			fail();
+		}
+
+		// checks
+		List<EventType> listUpnp = LogParser
+				.filter(listEvents, UPnPEvent.class);
+		assertEquals(2, listUpnp.size());
+		List<EventType> listdhcp = LogParser
+				.filter(listEvents, DHCPEvent.class);
+		assertEquals(10, listdhcp.size());
 	}
 
 	private int getLinesNumber(File input) throws IOException {
