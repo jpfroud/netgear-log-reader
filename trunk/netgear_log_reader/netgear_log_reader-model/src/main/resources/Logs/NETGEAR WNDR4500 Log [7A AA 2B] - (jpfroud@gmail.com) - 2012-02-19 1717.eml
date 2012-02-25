@@ -1,0 +1,265 @@
+Delivered-To: jpfroud@gmail.com
+Received: by 10.229.52.74 with SMTP id h10csp40460qcg;
+        Sun, 19 Feb 2012 09:17:23 -0800 (PST)
+Received: by 10.213.17.77 with SMTP id r13mr1216240eba.91.1329671842981;
+        Sun, 19 Feb 2012 09:17:22 -0800 (PST)
+Return-Path: <jpfroud@gmail.com>
+Received: from mx1.kwaoo.net (mx1.kwaoo.net. [178.250.209.7])
+        by mx.google.com with ESMTP id z18si11605696eeh.205.2012.02.19.09.17.22;
+        Sun, 19 Feb 2012 09:17:22 -0800 (PST)
+Received-SPF: neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) client-ip=178.250.209.7;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) smtp.mail=jpfroud@gmail.com
+Received: from localhost (mx1.kwaoo.net [127.0.0.1])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id 27C5014A0995
+	for <jpfroud@gmail.com>; Sun, 19 Feb 2012 18:17:22 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mx1.kwaoo.net
+Received: from mx1.kwaoo.net ([127.0.0.1])
+	by localhost (mx1.kwaoo.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id jIFHxcWSUCgx for <jpfroud@gmail.com>;
+	Sun, 19 Feb 2012 18:17:21 +0100 (CET)
+Received: from smtp2.kwaoo.net (smtp2.kwaoo.net [178.250.208.133])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id 5A09514A06D8
+	for <jpfroud@gmail.com>; Sun, 19 Feb 2012 18:17:21 +0100 (CET)
+Received: from smtp25.k-net.fr (unknown [178.250.210.109])
+	by smtp2.kwaoo.net (Postfix) with SMTP id F35AA103C14A
+	for <jpfroud@gmail.com>; Sun, 19 Feb 2012 17:17:20 +0000 (UTC)
+DATE: 19 Feb 12 17:17:20
+FROM: <jpfroud@gmail.com>
+To: <jpfroud@gmail.com>
+Sender: root@WNDR4500
+Subject: NETGEAR WNDR4500 Log [7A:AA:2B]
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Message-Id: <20120219171721.5A09514A06D8@mx1.kwaoo.net>
+
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:17:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:16:39
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:15:57
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:15:14
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:14:37
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:14:03
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:13:25
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:12:51
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:12:17
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:11:42
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:10:59
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:10:26
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:09:47
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:09:11
+[Time synchronized with NTP server] Sunday, Feb 19,2012 17:09:10
+[Internet connected] IP address: 178.250.210.109, Sunday, Feb 19,2012 17:09:10
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:08:26
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:07:50
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:07:19
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:07:03
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:06:48
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:06:10
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:05:39
+[LAN access from remote] from 178.249.112.201:7645 to 192.168.0.112:445 Sunday, Feb 19,2012 17:05:30
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:05:01
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:04:21
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:03:42
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:03:08
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:02:33
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:01:50
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:01:12
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:00:41
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 17:00:02
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:59:18
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:58:45
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:58:07
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:57:36
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:57:02
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:56:23
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:55:44
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:55:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:54:17
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:53:33
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:53:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:52:16
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:51:38
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:51:02
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:50:18
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:49:43
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:49:11
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:48:36
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:48:04
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:47:16
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:46:40
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:45:56
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:45:23
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:44:43
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:44:05
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:43:33
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:43:01
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:42:22
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:41:38
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:40:58
+[LAN access from remote] from 178.159.119.130:37194 to 192.168.0.106:23 Sunday, Feb 19,2012 16:40:30
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:40:25
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:39:47
+[Time synchronized with NTP server] Sunday, Feb 19,2012 16:39:11
+[Internet connected] IP address: 178.250.210.109, Sunday, Feb 19,2012 16:39:11
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:39:09
+[LAN access from remote] from 188.128.10.106:4594 to 192.168.0.112:445 Sunday, Feb 19,2012 16:39:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:38:27
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:37:47
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:37:07
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:36:32
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:35:53
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:35:13
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:34:31
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:33:48
+[LAN access from remote] from 115.66.188.237:56328 to 192.168.0.129:22 Sunday, Feb 19,2012 16:33:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:33:15
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:32:39
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:32:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:31:16
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:30:36
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:30:05
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:29:29
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:28:55
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:28:15
+[LAN access from remote] from 178.72.9.39:47745 to 192.168.0.106:23 Sunday, Feb 19,2012 16:27:34
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:27:31
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:26:49
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:26:14
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:25:33
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:24:59
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:24:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:23:39
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:23:07
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:22:32
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:21:54
+[LAN access from remote] from 178.235.84.253:4009 to 192.168.0.106:23 Sunday, Feb 19,2012 16:21:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:21:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:20:47
+[LAN access from remote] from 195.117.242.67:3721 to 192.168.0.106:3389 Sunday, Feb 19,2012 16:20:14
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:20:06
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:19:24
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:18:51
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:18:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:17:46
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:17:04
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:16:32
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:15:55
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:15:21
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:14:37
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:14:04
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:13:29
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:12:51
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:12:07
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:11:26
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:10:47
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:10:06
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:09:29
+[Time synchronized with NTP server] Sunday, Feb 19,2012 16:09:11
+[Internet connected] IP address: 178.250.210.109, Sunday, Feb 19,2012 16:09:11
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:08:44
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:08:01
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:07:17
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:06:45
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:05:59
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:05:18
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:04:34
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:04:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:03:19
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:02:45
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:02:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:01:18
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:00:48
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 16:00:08
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:59:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:58:46
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:58:06
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:57:34
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:56:57
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:56:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:55:32
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:55:01
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:54:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:53:37
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:52:57
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:52:22
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:51:43
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:51:04
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:50:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:49:46
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:49:09
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:48:34
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:47:49
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:47:13
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:46:42
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:45:58
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:45:19
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:44:45
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:44:08
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:43:25
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:42:45
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:42:03
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:41:25
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:40:41
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:40:10
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:39:36
+[Time synchronized with NTP server] Sunday, Feb 19,2012 15:39:11
+[Internet connected] IP address: 178.250.210.109, Sunday, Feb 19,2012 15:39:11
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:38:59
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:38:26
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:37:48
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:37:15
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:36:31
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:36:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:35:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:34:35
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:33:54
+[LAN access from remote] from 208.94.148.4:53 to 192.168.0.106:53418 Sunday, Feb 19,2012 15:33:40
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:33:24
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:32:44
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:32:05
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:31:33
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:30:55
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:30:15
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:29:43
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:28:59
+[LAN access from remote] from 178.249.114.29:2346 to 192.168.0.106:135 Sunday, Feb 19,2012 15:28:46
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:28:20
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:27:44
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:27:02
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:26:21
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:25:41
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:25:07
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:24:21
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:23:49
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:23:15
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:22:35
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:21:54
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:21:17
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:20:32
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:20:00
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:19:30
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:18:48
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:18:10
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:17:36
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:17:05
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:16:28
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:15:54
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:15:13
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:14:34
+[LAN access from remote] from 91.121.129.17:5060 to 192.168.0.106:64804 Sunday, Feb 19,2012 15:14:13
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:13:53
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:13:09
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:12:37
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:12:01
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:11:25
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:10:46
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.106, Sunday, Feb 19,2012 15:10:13
+[DHCP IP: (192.168.0.106)] to MAC address E0:46:9A:A8:39:46, Sunday, Feb 19,2012 15:10:05
+[DHCP IP: (192.168.0.100)] to MAC address 28:6A:BA:82:57:B1, Sunday, Feb 19,2012 15:09:52
+[Time synchronized with NTP server] Sunday, Feb 19,2012 15:09:20
+[LAN access from remote] from 91.121.129.17:5060 to 192.168.0.106:64804 Sunday, Feb 19,2012 15:09:10
+[LAN access from remote] from 178.250.208.37:53 to 192.168.0.106:32771 Sunday, Feb 19,2012 15:09:10
+[Internet connected] IP address: 178.250.210.109, Sunday, Feb 19,2012 15:09:10
+[Internet disconnected] Sunday, Feb 19,2012 15:09:09
+[Initialized, firmware version: V1.0.0.70_1.0.18] Sunday, Feb 19,2012 15:09:03
+[DHCP IP: (192.168.0.104)] to MAC address 7C:2F:80:2F:BB:92, Sunday, Feb 19,2012 15:09:03
+
