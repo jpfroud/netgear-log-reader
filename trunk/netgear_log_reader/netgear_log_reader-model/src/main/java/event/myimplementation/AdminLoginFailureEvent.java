@@ -12,8 +12,7 @@ import event.implementation.LogIPAdress;
 public class AdminLoginFailureEvent extends AbstractEventWithSource {
 
 	public AdminLoginFailureEvent(String s) {
-		line = s;
-		parse(s);
+		super(s);
 	}
 
 	/**
@@ -22,6 +21,7 @@ public class AdminLoginFailureEvent extends AbstractEventWithSource {
 	 * 
 	 * @param s
 	 */
+	@Override
 	protected void parse(String s) {
 		String regExp = "^\\[Admin login failure\\] from source "
 				+ IPAdress.IP_REG_EXP + "\\, " + EventType.GLOBAL_DATE_REG_EXP;

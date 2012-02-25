@@ -14,6 +14,11 @@ public abstract class AbstractEventType implements EventType {
 
 	protected String dateText;
 
+	public AbstractEventType(String line) {
+		this.line = line;
+		parse(line);
+	}
+
 	public String getDateText() {
 		return dateText;
 	}
@@ -53,7 +58,7 @@ public abstract class AbstractEventType implements EventType {
 	public String getName() {
 		return null;
 	}
-	
-	protected abstract  void parse(String s);
+
+	protected abstract void parse(String s);
 
 }

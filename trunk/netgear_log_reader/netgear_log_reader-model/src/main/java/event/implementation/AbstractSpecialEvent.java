@@ -8,6 +8,10 @@ public abstract class AbstractSpecialEvent extends AbstractEventType implements
 
 	protected Parameter parameter;
 
+	public AbstractSpecialEvent(String s) {
+		super(s);
+	}
+
 	@Override
 	public Parameter getParameter() {
 		return parameter;
