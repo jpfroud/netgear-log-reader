@@ -1,0 +1,4 @@
+[Admin login failure] from source 192.168.0.106, Friday, Jan 27,2010 19:31:50
+[Admin login] from source 192.168.0.106, Friday, Jan 27,2011 17:39:45
+[DHCP IP: (192.168.0.100)] to MAC address 04:1E:64:26:23:72, Friday, Jan 27,1996 12:25:00
+[DHCP IP: (192.168.0.101)] to MAC address 04:1E:64:26:23:72, Friday, Jan 27,2009 14:06:44

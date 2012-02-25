@@ -1,0 +1,35 @@
+Delivered-To: jpfroud@gmail.com
+Received: by 10.229.52.74 with SMTP id h10cs18016qcg;
+        Tue, 14 Feb 2012 06:36:12 -0800 (PST)
+Received: by 10.14.22.3 with SMTP id s3mr6838693ees.82.1329230171873;
+        Tue, 14 Feb 2012 06:36:11 -0800 (PST)
+Return-Path: <jpfroud@gmail.com>
+Received: from mx1.kwaoo.net (mx1.kwaoo.net. [178.250.209.7])
+        by mx.google.com with ESMTP id a6si11667204eeg.1.2012.02.14.06.36.11;
+        Tue, 14 Feb 2012 06:36:11 -0800 (PST)
+Received-SPF: neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) client-ip=178.250.209.7;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) smtp.mail=jpfroud@gmail.com
+Received: from localhost (mx1.kwaoo.net [127.0.0.1])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id 17A8714A085F
+	for <jpfroud@gmail.com>; Tue, 14 Feb 2012 15:36:11 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mx1.kwaoo.net
+Received: from mx1.kwaoo.net ([127.0.0.1])
+	by localhost (mx1.kwaoo.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id S0hq+83V0Q2E for <jpfroud@gmail.com>;
+	Tue, 14 Feb 2012 15:36:09 +0100 (CET)
+Received: from smtp2.kwaoo.net (smtp2.kwaoo.net [178.250.208.133])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id 9A5A414A077B
+	for <jpfroud@gmail.com>; Tue, 14 Feb 2012 15:36:09 +0100 (CET)
+Received: from smtp25.k-net.fr (unknown [178.250.210.109])
+	by smtp2.kwaoo.net (Postfix) with SMTP id 1A16B103C54F
+	for <jpfroud@gmail.com>; Tue, 14 Feb 2012 14:36:09 +0000 (UTC)
+DATE: 01 Jan 3 07:25:15
+FROM: <jpfroud@gmail.com>
+To: <jpfroud@gmail.com>
+Sender: root@WNDR4500
+Subject: NETGEAR WNDR4500 Log [7A:AA:2B]
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Message-Id: <20120214143609.9A5A414A077B@mx1.kwaoo.net>
+
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.101, Wednesday, Jan 01,2003 07:25:15

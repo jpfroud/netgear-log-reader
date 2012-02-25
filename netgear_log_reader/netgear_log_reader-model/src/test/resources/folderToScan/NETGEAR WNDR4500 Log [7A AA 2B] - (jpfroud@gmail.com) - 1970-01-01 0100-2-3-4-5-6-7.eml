@@ -1,0 +1,38 @@
+Delivered-To: jpfroud@gmail.com
+Received: by 10.229.52.74 with SMTP id h10cs23501qcg;
+        Tue, 14 Feb 2012 08:51:28 -0800 (PST)
+Received: by 10.213.8.133 with SMTP id h5mr591044ebh.13.1329238286680;
+        Tue, 14 Feb 2012 08:51:26 -0800 (PST)
+Return-Path: <jpfroud@gmail.com>
+Received: from mx1.kwaoo.net (mx1.kwaoo.net. [178.250.209.7])
+        by mx.google.com with ESMTP id v16si1352053eem.143.2012.02.14.08.51.25;
+        Tue, 14 Feb 2012 08:51:26 -0800 (PST)
+Received-SPF: neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) client-ip=178.250.209.7;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 178.250.209.7 is neither permitted nor denied by domain of jpfroud@gmail.com) smtp.mail=jpfroud@gmail.com
+Received: from localhost (mx1.kwaoo.net [127.0.0.1])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id AED5814A0702
+	for <jpfroud@gmail.com>; Tue, 14 Feb 2012 17:51:24 +0100 (CET)
+X-Virus-Scanned: Debian amavisd-new at mx1.kwaoo.net
+Received: from mx1.kwaoo.net ([127.0.0.1])
+	by localhost (mx1.kwaoo.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id dKkBj5Tj6pR9 for <jpfroud@gmail.com>;
+	Tue, 14 Feb 2012 17:51:23 +0100 (CET)
+Received: from smtp2.kwaoo.net (smtp2.kwaoo.net [178.250.208.133])
+	by mx1.kwaoo.net (iRedMail) with ESMTP id EA58714A06FD
+	for <jpfroud@gmail.com>; Tue, 14 Feb 2012 17:51:23 +0100 (CET)
+Received: from smtp25.k-net.fr (unknown [178.250.210.109])
+	by smtp2.kwaoo.net (Postfix) with SMTP id 85074103CA45
+	for <jpfroud@gmail.com>; Tue, 14 Feb 2012 16:51:23 +0000 (UTC)
+DATE: 01 Jan 3 09:40:30
+FROM: <jpfroud@gmail.com>
+To: <jpfroud@gmail.com>
+Sender: root@WNDR4500
+Subject: NETGEAR WNDR4500 Log [7A:AA:2B]
+MIME-Version: 1.0
+Content-type: text/plain; charset=US-ASCII
+Message-Id: <20120214165123.EA58714A06FD@mx1.kwaoo.net>
+
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.101, Wednesday, Jan 01,2003 09:40:29
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.101, Wednesday, Jan 01,2003 09:39:55
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.101, Wednesday, Jan 01,2003 09:39:24
+[UPnP set event: Public_UPNP_C3] from source 192.168.0.101, Wednesday, Jan 01,2003 09:38:51

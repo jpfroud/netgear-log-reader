@@ -2,7 +2,7 @@ package event;
 
 import java.util.Date;
 
-public interface EventType {
+public interface EventType extends Comparable<EventType> {
 
 	/**
 	 * 6 groups :
