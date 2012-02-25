@@ -83,8 +83,8 @@ public class ParserTestCase extends TestCase {
 		EventType event = listEvents.get(0);
 		// checks
 		assertEquals(AdminLoginSuccessEvent.class, event.getClass());
-		assertEquals("192.168.0.106",
-				((AdminLoginSuccessEvent) event).getSource().getStringValue());
+		assertEquals("192.168.0.106", ((AdminLoginSuccessEvent) event)
+				.getSource().getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 17, 39, 45);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
@@ -188,7 +188,7 @@ public class ParserTestCase extends TestCase {
 		// checks
 		assertEquals(InternetDisconnectedEvent.class, event.getClass());
 		Calendar cal = Calendar.getInstance();
-		cal.set(2012, 0, 1, 0, 0, 3);
+		cal.set(2003, 0, 1, 0, 0, 3);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
 				.toString());
 	}
@@ -219,8 +219,8 @@ public class ParserTestCase extends TestCase {
 		EventType event = listEvents.get(0);
 		// checks
 		assertEquals(RemoteLoginSuccessEvent.class, event.getClass());
-		assertEquals("160.53.250.126",
-				((RemoteLoginSuccessEvent) event).getSource());
+		assertEquals("160.53.250.126", ((RemoteLoginSuccessEvent) event)
+				.getSource().getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 49, 54);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
@@ -233,8 +233,8 @@ public class ParserTestCase extends TestCase {
 		EventType event = listEvents.get(0);
 		// checks
 		assertEquals(RemoteLoginFailureEvent.class, event.getClass());
-		assertEquals("160.53.250.126",
-				((RemoteLoginFailureEvent) event).getSource());
+		assertEquals("160.53.250.126", ((RemoteLoginFailureEvent) event)
+				.getSource().getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 49, 54);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
@@ -259,8 +259,8 @@ public class ParserTestCase extends TestCase {
 		EventType event = listEvents.get(0);
 		// checks
 		assertEquals(ServiceBlockedEvent.class, event.getClass());
-		assertEquals("178.250.209.42",
-				((ServiceBlockedEvent) event).getSource());
+		assertEquals("178.250.209.42", ((ServiceBlockedEvent) event)
+				.getSource().getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 19, 50, 27);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
@@ -287,7 +287,8 @@ public class ParserTestCase extends TestCase {
 		EventType event = listEvents.get(0);
 		// checks
 		assertEquals(UPnPEvent.class, event.getClass());
-		assertEquals("192.168.0.129", ((UPnPEvent) event).getSource());
+		assertEquals("192.168.0.129", ((UPnPEvent) event).getSource()
+				.getStringValue());
 		Calendar cal = Calendar.getInstance();
 		cal.set(2012, 0, 27, 12, 48, 21);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()

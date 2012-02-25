@@ -6,7 +6,11 @@ import event.IPAdress;
 public abstract class AbstractEventWithDestination extends
 		AbstractEventWithSource implements EventWithDestination {
 
-	IPAdress destination;
+	protected IPAdress destination;
+
+	public AbstractEventWithDestination(String s) {
+		super(s);
+	}
 
 	@Override
 	public IPAdress getDestination() {

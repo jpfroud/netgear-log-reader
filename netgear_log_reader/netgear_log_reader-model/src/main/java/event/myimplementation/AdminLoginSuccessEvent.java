@@ -12,18 +12,19 @@ import event.implementation.LogIPAdress;
 public class AdminLoginSuccessEvent extends AbstractEventWithSource {
 
 	public AdminLoginSuccessEvent(String s) {
-		line = s;
-		parse(s);
+		super(s);
 	}
 
 	/**
-	 * ex : [Admin login] from source 192.168.0.106, Friday, Jan 27,2012 17:39:45
+	 * ex : [Admin login] from source 192.168.0.106, Friday, Jan 27,2012
+	 * 17:39:45
 	 * 
 	 * @param s
 	 */
+	@Override
 	protected void parse(String s) {
-		String regExp = "^\\[Admin login\\] from source "
-				+ IPAdress.IP_REG_EXP + "\\, " + EventType.GLOBAL_DATE_REG_EXP;
+		String regExp = "^\\[Admin login\\] from source " + IPAdress.IP_REG_EXP
+				+ "\\, " + EventType.GLOBAL_DATE_REG_EXP;
 
 		Pattern p = Pattern.compile(regExp);
 		Matcher m = p.matcher(s);
