@@ -1,8 +1,9 @@
-package event;
+package event.implementation;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import event.EventType;
 import event.myimplementation.AdminLoginFailureEvent;
 import event.myimplementation.AdminLoginSuccessEvent;
 import event.myimplementation.DHCPEvent;
