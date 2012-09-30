@@ -14,8 +14,8 @@ import java.util.regex.Pattern;
 
 import utils.EmlFileFilter;
 import utils.IoUtils;
-import event.EventFactory;
 import event.EventType;
+import event.implementation.EventFactory;
 
 public class LogParser {
 

@@ -10,8 +10,8 @@ import java.util.List;
 
 import junit.framework.TestCase;
 import utils.IoUtils;
-import event.EventFactory;
 import event.EventType;
+import event.implementation.EventFactory;
 import event.myimplementation.AdminLoginFailureEvent;
 import event.myimplementation.AdminLoginSuccessEvent;
 import event.myimplementation.DHCPEvent;
