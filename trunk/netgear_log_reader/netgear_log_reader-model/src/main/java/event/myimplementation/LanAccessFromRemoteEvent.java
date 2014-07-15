@@ -42,7 +42,7 @@ public class LanAccessFromRemoteEvent extends AbstractEventWithDestination {
 	}
 
 	/**
-	 * [LAN access from remote] from 178.249.112.201:41742 to 192.168.0.112:445
+	 * [LAN access from remote] from 178.249.112.201:41742 to 192.168.0.112:445,
 	 * Wednesday, Jan 01,2003 09:31:16
 	 */
 	@Override
