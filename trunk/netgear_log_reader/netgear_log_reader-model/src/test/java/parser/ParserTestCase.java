@@ -244,21 +244,21 @@ public class ParserTestCase extends TestCase {
 	}
 
 	public void testParseLanRemote() {
-		String toParse = "[LAN access from remote] from 178.151.23.164:38234 to 192.168.0.112:445 Friday, Jan 27,2012 12:57:46";
+		String toParse = "[LAN access from remote] from 178.250.210.109:62913 to 192.168.0.123:6081, Wednesday, Jul 02,2014 08:02:22";
 		List<EventType> listEvents = LogParser.parse(toParse);
 		EventType event = listEvents.get(0);
 		// checks
 		assertEquals(LanAccessFromRemoteEvent.class, event.getClass());
-		assertEquals("178.151.23.164", ((LanAccessFromRemoteEvent) event)
+		assertEquals("178.250.210.109", ((LanAccessFromRemoteEvent) event)
 				.getSource().getStringValue());
-		assertEquals((Integer) 38234,
+		assertEquals((Integer) 62913,
 				((LanAccessFromRemoteEvent) event).getSourcePort());
-		assertEquals("192.168.0.112", ((LanAccessFromRemoteEvent) event)
+		assertEquals("192.168.0.123", ((LanAccessFromRemoteEvent) event)
 				.getDestination().getStringValue());
-		assertEquals((Integer) 445,
+		assertEquals((Integer) 6081,
 				((LanAccessFromRemoteEvent) event).getDestinationPort());
 		Calendar cal = Calendar.getInstance();
-		cal.set(2012, 0, 27, 12, 57, 46);
+		cal.set(2014, 6, 2, 8, 2, 22);
 		assertEquals(cal.getTime().toString(), event.getDateOfEvent()
 				.toString());
 	}
