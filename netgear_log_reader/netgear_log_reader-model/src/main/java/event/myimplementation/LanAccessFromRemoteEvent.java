@@ -49,7 +49,7 @@ public class LanAccessFromRemoteEvent extends AbstractEventWithDestination {
 	protected void parse(String s) {
 		String regExp = "^\\[LAN access from remote\\] from "
 				+ IPAdress.IP_REG_EXP + ":(\\d+?) to " + IPAdress.IP_REG_EXP
-				+ ":(\\d+?) " + EventType.GLOBAL_DATE_REG_EXP;
+				+ ":(\\d+?), " + EventType.GLOBAL_DATE_REG_EXP;
 
 		Pattern p = Pattern.compile(regExp);
 		Matcher m = p.matcher(s);
